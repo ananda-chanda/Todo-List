@@ -77,10 +77,13 @@ export default function TodoList() {
             <h3>TODO GAME</h3>
             <div>
                 <input
+                    autoFocus
                     placeholder="Add a task"
                     value={value}
                     onChange={updateTodoValue}
                     className="op"
+                    
+            
                 />
                 
                 <button className="btn" onClick={addNewTask}>
